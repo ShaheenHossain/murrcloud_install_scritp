@@ -3,7 +3,7 @@ sudo wget https://raw.githubusercontent.com/ShaheenHossain/murrcloud_install_scr
 
 #### 3. Make the script executable
 ```
-sudo chmod +x murrcloud1769_install.sh
+sudo chmod +x murrcloud_install.sh
 
-sudo ./murrcloud1769_install.sh
+sudo ./murrcloud_install.sh
 
