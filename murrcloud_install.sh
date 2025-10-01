@@ -67,7 +67,7 @@ echo -e "\n---- Install python packages/requirements ----"
 
 #sudo -H pip3 install -r https://github.com/ShaheenHossain/requirements.txt/raw/master/requirements.txt
 
-sudo -H pip3 install -r https://github.com/odoo/odoo/raw/17.0/requirements.txt
+sudo -H pip3 install -r https://github.com/odoo/odoo/raw/17.0/requirements.txt --break-system-packages
 
 echo -e "\n---- Installing nodeJS NPM and rtlcss for LTR support ----"
 sudo apt-get install nodejs npm -y
