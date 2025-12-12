@@ -65,7 +65,11 @@ sudo apt-get install git python3-cffi build-essential wget python3-dev python3-v
 
 echo -e "\n---- Install python packages/requirements ----"
 
-sudo -H pip3 install -r https://github.com/ShaheenHossain/requirements.txt/raw/master/requirements.txt --break-system-packages
+sudo -H pip3 install \
+  --index-url http://mirrors.cloud.aliyuncs.com/pypi/simple \
+  --extra-index-url https://pypi.org/simple \
+  -r https://github.com/ShaheenHossain/requirements.txt/raw/master/requirements.txt \
+  --break-system-packages
 
 #sudo -H pip3 install -r https://github.com/odoo/odoo/raw/17.0/requirements.txt --break-system-packages
 
